@@ -71,7 +71,7 @@
     monthSelect.html(monthOptions).val(currentMonth + 1);
 
 function fetchHimoList(selectedYear) {
-    const url = `https://script.google.com/macros/s/AKfycbygp2IcX51oNyis4juAdHKfuSZOVmfRas_a4fhKnqLqA5O64pBjf_b0dw0c5x4gGjHLig/exec?year=${selectedYear}`;
+    const url = `https://script.google.com/macros/s/AKfycbyoQ3yzUcz0OwvYSF71htOD6pfzZ6pv2JIvH2Z7N8QtGHjuVKiN8fbzfzIG3o_6a7Tq/exec?year=${selectedYear}`;
     fetch(url)
         .then(res => res.json())
         .then(data => {
